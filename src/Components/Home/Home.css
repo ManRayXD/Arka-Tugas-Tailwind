@@ -1,0 +1,13 @@
+.melayang {
+    animation: terbang 3s infinite;
+}
+
+@keyframes terbang {
+    50% {
+        transform: translate(0px, 20px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
